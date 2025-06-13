@@ -1,45 +1,50 @@
-📱 Mobile Expense Tracker App (MERN Stack)
-A cross-platform mobile application built using the MERN stack and React Native with Expo for tracking income and expenses efficiently.
+📱 Cross-Platform App
+Built with React Native and Expo for both Android and iOS.
 
-🚀 Features
-Cross-Platform Compatibility: Developed using React Native and Expo for both Android and iOS platforms.
+🔐 Authentication with Clerk
+Sign up and log in securely using Clerk's auth system.
 
-Authentication with Clerk: Secure sign-up and login using Clerk's robust authentication system.
+📩 Email Verification
+Secure 6-digit email verification before accessing the app.
 
-Email Verification: 6-digit code email verification flow before accessing the app.
+🏠 Screens
+Includes 5 core screens:
+Signup, Login, Verify Email, Home, and Create Transaction.
 
-Five Core Screens:
+💸 Expense Tracker
+Add income or expenses and manage financial entries with ease.
 
-Signup
+📊 Live Balance Updates
+Real-time calculation of the current balance based on transactions.
 
-Login
+🗑️ Delete Transactions
+Remove unwanted or old entries with a single tap.
 
-Email Verification
+🔄 Pull to Refresh
+Classic refresh gesture implemented from scratch.
 
-Home (Dashboard)
+🚪 Logout Functionality
+Easily sign out or switch between accounts.
 
-Create Transaction
+🧰 Backend with Express.js
+Built on a RESTful API using Express, connected to Neon-hosted PostgreSQL.
 
-Expense Tracker: Add income or expense entries and track your financial records.
+🌐 Cloud Deployment
+Backend hosted online to enable full mobile access.
 
-Real-time Balance Updates: Live calculation of the current balance based on transaction history.
+⏱️ Rate Limiting with Redis
+Protects the API using a Redis-based rate limiter via Upstash.
 
-Delete Transactions: Quickly remove outdated or incorrect entries.
+🧠 Beginner Friendly
+No prior React Native experience needed — just basic React knowledge.
 
-Pull-to-Refresh: Custom-implemented refresh gesture for real-time updates.
+💸 100% Free Tools
+All tools used are completely free to use.
 
-Logout Functionality: Easily sign out or switch accounts.
+🧪 Real Device Testing
+Test and run the app on your own phone — no Mac required.
 
-🛠️ Backend Details
-Express.js REST API: Built with Express to handle all backend operations.
 
-Database: PostgreSQL hosted on Neon, integrated with raw SQL queries for optimal control and performance.
+Images of the BudgetFLow App
 
-Rate Limiting:
-
-Implemented using Upstash Redis as middleware.
-
-Prevents abuse and ensures server stability by limiting API requests.
-
-☁️ Cloud Hosting
-The backend server is deployed online to ensure seamless mobile access.
+![frontend part of the app](https://github.com/ShadowRoot-ops/BugetFlow-Frontend/blob/4ba6b7d6ee824269e88211ac3823e6a908fc4eb4/No%20Transaction.jpg)
