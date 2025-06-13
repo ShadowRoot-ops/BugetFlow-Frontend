@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+📱 Mobile Expense Tracker App (MERN Stack)
+A cross-platform mobile application built using the MERN stack and React Native with Expo for tracking income and expenses efficiently.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 Features
+Cross-Platform Compatibility: Developed using React Native and Expo for both Android and iOS platforms.
 
-## Get started
+Authentication with Clerk: Secure sign-up and login using Clerk's robust authentication system.
 
-1. Install dependencies
+Email Verification: 6-digit code email verification flow before accessing the app.
 
-   ```bash
-   npm install
-   ```
+Five Core Screens:
 
-2. Start the app
+Signup
 
-   ```bash
-   npx expo start
-   ```
+Login
 
-In the output, you'll find options to open the app in a
+Email Verification
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Home (Dashboard)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Create Transaction
 
-## Get a fresh project
+Expense Tracker: Add income or expense entries and track your financial records.
 
-When you're ready, run:
+Real-time Balance Updates: Live calculation of the current balance based on transaction history.
 
-```bash
-npm run reset-project
-```
+Delete Transactions: Quickly remove outdated or incorrect entries.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Pull-to-Refresh: Custom-implemented refresh gesture for real-time updates.
 
-## Learn more
+Logout Functionality: Easily sign out or switch accounts.
 
-To learn more about developing your project with Expo, look at the following resources:
+🛠️ Backend Details
+Express.js REST API: Built with Express to handle all backend operations.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Database: PostgreSQL hosted on Neon, integrated with raw SQL queries for optimal control and performance.
 
-## Join the community
+Rate Limiting:
 
-Join our community of developers creating universal apps.
+Implemented using Upstash Redis as middleware.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Prevents abuse and ensures server stability by limiting API requests.
+
+☁️ Cloud Hosting
+The backend server is deployed online to ensure seamless mobile access.
