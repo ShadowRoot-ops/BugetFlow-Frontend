@@ -47,4 +47,7 @@ Test and run the app on your own phone — no Mac required.
 
 Images of the BudgetFLow App
 
-![frontend part of the app](https://github.com/ShadowRoot-ops/BugetFlow-Frontend/blob/4ba6b7d6ee824269e88211ac3823e6a908fc4eb4/No%20Transaction.jpg)
+![frontend part of the app](https://github.com/ShadowRoot-ops/BugetFlow-Frontend/blob/4ba6b7d6ee824269e88211ac3823e6a908fc4eb4/No%20Transaction.jpg) 
+![adding transactions](https://github.com/ShadowRoot-ops/BugetFlow-Frontend/blob/2de110f4481fb1a4832e8e81d3aafc2ba2fb0e8a/Adding%20Transactions.jpg) 
+![Transactions Added](https://github.com/ShadowRoot-ops/BugetFlow-Frontend/blob/2de110f4481fb1a4832e8e81d3aafc2ba2fb0e8a/Added%20Transacction.jpg)
+
